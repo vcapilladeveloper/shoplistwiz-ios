@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67160AC22AF3A551002D6A89 /* ShopListWizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160AC12AF3A551002D6A89 /* ShopListWizApp.swift */; };
+		67160AC42AF3A551002D6A89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160AC32AF3A551002D6A89 /* ContentView.swift */; };
+		67160AC62AF3A551002D6A89 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160AC52AF3A551002D6A89 /* Item.swift */; };
+		67160AC82AF3A552002D6A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67160AC72AF3A552002D6A89 /* Assets.xcassets */; };
+		67160ACB2AF3A552002D6A89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67160ACA2AF3A552002D6A89 /* Preview Assets.xcassets */; };
+		67160AD52AF3A552002D6A89 /* ShopListWizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160AD42AF3A552002D6A89 /* ShopListWizTests.swift */; };
+		67160ADF2AF3A552002D6A89 /* ShopListWizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160ADE2AF3A552002D6A89 /* ShopListWizUITests.swift */; };
+		67160AE12AF3A552002D6A89 /* ShopListWizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160AE02AF3A552002D6A89 /* ShopListWizUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67160AD12AF3A552002D6A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67160AB62AF3A550002D6A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67160ABD2AF3A550002D6A89;
+			remoteInfo = ShopListWiz;
+		};
+		67160ADB2AF3A552002D6A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67160AB62AF3A550002D6A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67160ABD2AF3A550002D6A89;
+			remoteInfo = ShopListWiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67160ABE2AF3A550002D6A89 /* ShopListWiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopListWiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67160AC12AF3A551002D6A89 /* ShopListWizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListWizApp.swift; sourceTree = "<group>"; };
+		67160AC32AF3A551002D6A89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67160AC52AF3A551002D6A89 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		67160AC72AF3A552002D6A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67160ACA2AF3A552002D6A89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67160AD02AF3A552002D6A89 /* ShopListWizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopListWizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67160AD42AF3A552002D6A89 /* ShopListWizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListWizTests.swift; sourceTree = "<group>"; };
+		67160ADA2AF3A552002D6A89 /* ShopListWizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopListWizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67160ADE2AF3A552002D6A89 /* ShopListWizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListWizUITests.swift; sourceTree = "<group>"; };
+		67160AE02AF3A552002D6A89 /* ShopListWizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListWizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67160ABB2AF3A550002D6A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67160ACD2AF3A552002D6A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67160AD72AF3A552002D6A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67160AB52AF3A550002D6A89 = {
+			isa = PBXGroup;
+			children = (
+				67160AC02AF3A550002D6A89 /* ShopListWiz */,
+				67160AD32AF3A552002D6A89 /* ShopListWizTests */,
+				67160ADD2AF3A552002D6A89 /* ShopListWizUITests */,
+				67160ABF2AF3A550002D6A89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67160ABF2AF3A550002D6A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67160ABE2AF3A550002D6A89 /* ShopListWiz.app */,
+				67160AD02AF3A552002D6A89 /* ShopListWizTests.xctest */,
+				67160ADA2AF3A552002D6A89 /* ShopListWizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67160AC02AF3A550002D6A89 /* ShopListWiz */ = {
+			isa = PBXGroup;
+			children = (
+				67160AC12AF3A551002D6A89 /* ShopListWizApp.swift */,
+				67160AC32AF3A551002D6A89 /* ContentView.swift */,
+				67160AC52AF3A551002D6A89 /* Item.swift */,
+				67160AC72AF3A552002D6A89 /* Assets.xcassets */,
+				67160AC92AF3A552002D6A89 /* Preview Content */,
+			);
+			path = ShopListWiz;
+			sourceTree = "<group>";
+		};
+		67160AC92AF3A552002D6A89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67160ACA2AF3A552002D6A89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67160AD32AF3A552002D6A89 /* ShopListWizTests */ = {
+			isa = PBXGroup;
+			children = (
+				67160AD42AF3A552002D6A89 /* ShopListWizTests.swift */,
+			);
+			path = ShopListWizTests;
+			sourceTree = "<group>";
+		};
+		67160ADD2AF3A552002D6A89 /* ShopListWizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67160ADE2AF3A552002D6A89 /* ShopListWizUITests.swift */,
+				67160AE02AF3A552002D6A89 /* ShopListWizUITestsLaunchTests.swift */,
+			);
+			path = ShopListWizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67160ABD2AF3A550002D6A89 /* ShopListWiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67160AE42AF3A552002D6A89 /* Build configuration list for PBXNativeTarget "ShopListWiz" */;
+			buildPhases = (
+				67160ABA2AF3A550002D6A89 /* Sources */,
+				67160ABB2AF3A550002D6A89 /* Frameworks */,
+				67160ABC2AF3A550002D6A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopListWiz;
+			productName = ShopListWiz;
+			productReference = 67160ABE2AF3A550002D6A89 /* ShopListWiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67160ACF2AF3A552002D6A89 /* ShopListWizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67160AE72AF3A552002D6A89 /* Build configuration list for PBXNativeTarget "ShopListWizTests" */;
+			buildPhases = (
+				67160ACC2AF3A552002D6A89 /* Sources */,
+				67160ACD2AF3A552002D6A89 /* Frameworks */,
+				67160ACE2AF3A552002D6A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67160AD22AF3A552002D6A89 /* PBXTargetDependency */,
+			);
+			name = ShopListWizTests;
+			productName = ShopListWizTests;
+			productReference = 67160AD02AF3A552002D6A89 /* ShopListWizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67160AD92AF3A552002D6A89 /* ShopListWizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67160AEA2AF3A552002D6A89 /* Build configuration list for PBXNativeTarget "ShopListWizUITests" */;
+			buildPhases = (
+				67160AD62AF3A552002D6A89 /* Sources */,
+				67160AD72AF3A552002D6A89 /* Frameworks */,
+				67160AD82AF3A552002D6A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67160ADC2AF3A552002D6A89 /* PBXTargetDependency */,
+			);
+			name = ShopListWizUITests;
+			productName = ShopListWizUITests;
+			productReference = 67160ADA2AF3A552002D6A89 /* ShopListWizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67160AB62AF3A550002D6A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					67160ABD2AF3A550002D6A89 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					67160ACF2AF3A552002D6A89 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 67160ABD2AF3A550002D6A89;
+					};
+					67160AD92AF3A552002D6A89 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 67160ABD2AF3A550002D6A89;
+					};
+				};
+			};
+			buildConfigurationList = 67160AB92AF3A550002D6A89 /* Build configuration list for PBXProject "ShopListWiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67160AB52AF3A550002D6A89;
+			productRefGroup = 67160ABF2AF3A550002D6A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67160ABD2AF3A550002D6A89 /* ShopListWiz */,
+				67160ACF2AF3A552002D6A89 /* ShopListWizTests */,
+				67160AD92AF3A552002D6A89 /* ShopListWizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67160ABC2AF3A550002D6A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67160ACB2AF3A552002D6A89 /* Preview Assets.xcassets in Resources */,
+				67160AC82AF3A552002D6A89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67160ACE2AF3A552002D6A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67160AD82AF3A552002D6A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67160ABA2AF3A550002D6A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67160AC42AF3A551002D6A89 /* ContentView.swift in Sources */,
+				67160AC62AF3A551002D6A89 /* Item.swift in Sources */,
+				67160AC22AF3A551002D6A89 /* ShopListWizApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67160ACC2AF3A552002D6A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67160AD52AF3A552002D6A89 /* ShopListWizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67160AD62AF3A552002D6A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67160ADF2AF3A552002D6A89 /* ShopListWizUITests.swift in Sources */,
+				67160AE12AF3A552002D6A89 /* ShopListWizUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67160AD22AF3A552002D6A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67160ABD2AF3A550002D6A89 /* ShopListWiz */;
+			targetProxy = 67160AD12AF3A552002D6A89 /* PBXContainerItemProxy */;
+		};
+		67160ADC2AF3A552002D6A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67160ABD2AF3A550002D6A89 /* ShopListWiz */;
+			targetProxy = 67160ADB2AF3A552002D6A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67160AE22AF3A552002D6A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67160AE32AF3A552002D6A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67160AE52AF3A552002D6A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopListWiz/Preview Content\"";
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoplistwiz.ShopListWiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67160AE62AF3A552002D6A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopListWiz/Preview Content\"";
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoplistwiz.ShopListWiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67160AE82AF3A552002D6A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoplistwiz.ShopListWizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopListWiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShopListWiz";
+			};
+			name = Debug;
+		};
+		67160AE92AF3A552002D6A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoplistwiz.ShopListWizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopListWiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShopListWiz";
+			};
+			name = Release;
+		};
+		67160AEB2AF3A552002D6A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoplistwiz.ShopListWizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShopListWiz;
+			};
+			name = Debug;
+		};
+		67160AEC2AF3A552002D6A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoplistwiz.ShopListWizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShopListWiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67160AB92AF3A550002D6A89 /* Build configuration list for PBXProject "ShopListWiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67160AE22AF3A552002D6A89 /* Debug */,
+				67160AE32AF3A552002D6A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67160AE42AF3A552002D6A89 /* Build configuration list for PBXNativeTarget "ShopListWiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67160AE52AF3A552002D6A89 /* Debug */,
+				67160AE62AF3A552002D6A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67160AE72AF3A552002D6A89 /* Build configuration list for PBXNativeTarget "ShopListWizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67160AE82AF3A552002D6A89 /* Debug */,
+				67160AE92AF3A552002D6A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67160AEA2AF3A552002D6A89 /* Build configuration list for PBXNativeTarget "ShopListWizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67160AEB2AF3A552002D6A89 /* Debug */,
+				67160AEC2AF3A552002D6A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67160AB62AF3A550002D6A89 /* Project object */;
+}
