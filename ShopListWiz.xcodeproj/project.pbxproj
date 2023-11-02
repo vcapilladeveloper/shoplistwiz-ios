@@ -15,6 +15,9 @@
 		67160AD52AF3A552002D6A89 /* ShopListWizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160AD42AF3A552002D6A89 /* ShopListWizTests.swift */; };
 		67160ADF2AF3A552002D6A89 /* ShopListWizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160ADE2AF3A552002D6A89 /* ShopListWizUITests.swift */; };
 		67160AE12AF3A552002D6A89 /* ShopListWizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160AE02AF3A552002D6A89 /* ShopListWizUITestsLaunchTests.swift */; };
+		67160AEF2AF3B063002D6A89 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160AEE2AF3B063002D6A89 /* Product.swift */; };
+		67160AF12AF3B333002D6A89 /* ShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160AF02AF3B333002D6A89 /* ShopList.swift */; };
+		67160AF32AF3B4DB002D6A89 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67160AF22AF3B4DB002D6A89 /* Dish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		67160ADA2AF3A552002D6A89 /* ShopListWizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopListWizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67160ADE2AF3A552002D6A89 /* ShopListWizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListWizUITests.swift; sourceTree = "<group>"; };
 		67160AE02AF3A552002D6A89 /* ShopListWizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListWizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67160AEE2AF3B063002D6A89 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		67160AF02AF3B333002D6A89 /* ShopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopList.swift; sourceTree = "<group>"; };
+		67160AF22AF3B4DB002D6A89 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 		67160AC02AF3A550002D6A89 /* ShopListWiz */ = {
 			isa = PBXGroup;
 			children = (
+				67160AED2AF3AE35002D6A89 /* Persistence */,
 				67160AC12AF3A551002D6A89 /* ShopListWizApp.swift */,
 				67160AC32AF3A551002D6A89 /* ContentView.swift */,
 				67160AC52AF3A551002D6A89 /* Item.swift */,
@@ -128,6 +135,16 @@
 				67160AE02AF3A552002D6A89 /* ShopListWizUITestsLaunchTests.swift */,
 			);
 			path = ShopListWizUITests;
+			sourceTree = "<group>";
+		};
+		67160AED2AF3AE35002D6A89 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				67160AEE2AF3B063002D6A89 /* Product.swift */,
+				67160AF02AF3B333002D6A89 /* ShopList.swift */,
+				67160AF22AF3B4DB002D6A89 /* Dish.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				67160AC42AF3A551002D6A89 /* ContentView.swift in Sources */,
+				67160AEF2AF3B063002D6A89 /* Product.swift in Sources */,
 				67160AC62AF3A551002D6A89 /* Item.swift in Sources */,
+				67160AF32AF3B4DB002D6A89 /* Dish.swift in Sources */,
+				67160AF12AF3B333002D6A89 /* ShopList.swift in Sources */,
 				67160AC22AF3A551002D6A89 /* ShopListWizApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,10 +1,3 @@
-//
-//  ShopListWizApp.swift
-//  ShopListWiz
-//
-//  Created by Victor Capilla Developer on 2/11/23.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -13,6 +6,9 @@ struct ShopListWizApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
+            Product.self,
+            ShopList.self,
+            Dish.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
